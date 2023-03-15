@@ -61,13 +61,11 @@ export default function App () {
   const resetAtZero = () => {
     if(timeLeft<0 && clockType === 'session') {
       audio.play();
-      // clearTimeout(timeout);
       setClockType('break');
       setTimeLeft(breakLen * 60);
     }
     if(timeLeft<0 && clockType === 'break') {
       audio.play();
-      // clearTimeout(timeout);
       setClockType('session');
       setTimeLeft(sessionLen * 60);
     }
