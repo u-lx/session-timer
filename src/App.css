@@ -1,0 +1,58 @@
+body {
+  font-family: century gothic, helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#container {
+  background-color: pink;
+  max-width: 500px;
+  border: 9px black ridge;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(38,38,38);
+  border-radius: 10px;
+  padding: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* max-width: 150px; */
+  /* height: 45px; */
+}
+button:hover {
+  color: pink;
+}
+button:disabled {
+  color: grey;
+}
+
+
+#time-left {
+  font-family: lucida console, castellar;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 9px;
+  margin-bottom: 8px;
+}
+
+#set-session, #set-break {
+  margin: 0 20px 0 20px;
+
+}
+
+#flexbox {
+  display: flex;
+  justify-content: space-around;
+}
